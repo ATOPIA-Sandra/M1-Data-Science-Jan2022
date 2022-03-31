@@ -24,6 +24,23 @@ class Distance:
     def __str__(self):
         "Should return a string representing the distance in meters"
 
+    def __sub__(self, other):
+
+        if isinstance(other, Distance):
+            return Distance(self.value - other.value)
+        else:
+            raise Exception("Not the same object type")
+
+    def __it__(self, other):
+
+        if isinstance(other, Distance):
+            if self.value > other.value:
+                return True
+            else:
+                return False
+        else:
+            raise Exception("Not the same object type")
+
 
 if __name__ == "__main__":
     a = Distance(4)
