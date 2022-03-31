@@ -24,19 +24,19 @@ class Distance:
     
     def __add__(self,other):
         if isinstance(other,Distance):
-            return self.conv() + other.conv()  
+            return Distance(self.conv() + other.conv())
         else:
             return None
         
     def __sub__(self,other):
         if isinstance(other,Distance):
-            return self.conv() - other.conv()
+            return Distance(self.conv() - other.conv())
         else:
             return None
     
     def __mul__(self,other):
         if isinstance(other,Distance):
-            return self.conv() * other.conv()
+            return Distance(self.conv() * other.conv())
         else:
             return None
     
