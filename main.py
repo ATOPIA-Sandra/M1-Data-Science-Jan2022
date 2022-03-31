@@ -16,7 +16,7 @@ class Distance:
         self.unit = unit
 
     def __repr__(self):
-        "Should return a string representing what you should have written to build the object"
+        return f"Distance({self.value},{self.unit})"
 
     def conv(self):
         "Convert value to meter and return it"
@@ -25,19 +25,14 @@ class Distance:
         "Should return a string representing the distance in meters"
 
     def __sub__(self, other):
-
         if isinstance(other, Distance):
             return Distance(self.value - other.value)
         else:
             raise Exception("Not the same object type")
 
-    def __it__(self, other):
-
+    def __lt__(self, other):
         if isinstance(other, Distance):
-            if self.value > other.value:
-                return True
-            else:
-                return False
+            return self.value > other.value
         else:
             raise Exception("Not the same object type")
 
