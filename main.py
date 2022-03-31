@@ -21,11 +21,10 @@ class Distance:
     def conv(self):
         c = self.__metric[self.unit]
         return self.value * c
-
+    
     def __add__(self,other):
         if isinstance(other,Distance):
-            return self.conv() + other.conv()
-            
+            return self.conv() + other.conv()  
         else:
             return None
         
@@ -40,7 +39,14 @@ class Distance:
             return self.conv() * other.conv()
         else:
             return None
-        
+    
+    def __gt__(self,other):
+        if isinstance(other,Distance):
+            return other.value > other
+    
+    def __ge__(self,other):
+        if isinstance(other,Distance):
+            return other.value >= other
     def __str__(self):
         "Should return a string representing the distance in meters"
 
