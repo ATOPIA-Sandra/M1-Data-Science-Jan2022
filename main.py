@@ -19,14 +19,34 @@ class Distance:
         "Should return a string representing what you should have written to build the object"
 
     def conv(self):
-        "Convert value to meter and return it"
+        c = self.__metric[self.unit]
+        return self.value * c
 
+    def __add__(self,other):
+        if isinstance(other,Distance):
+            return self.conv() + other.conv()
+            
+        else:
+            return None
+        
+    def __sub__(self,other):
+        if isinstance(other,Distance):
+            return self.conv() - other.conv()
+        else:
+            return None
+    
+    def __mul__(self,other):
+        if isinstance(other,Distance):
+            return self.conv() * other.conv()
+        else:
+            return None
+        
     def __str__(self):
         "Should return a string representing the distance in meters"
 
 
 if __name__ == "__main__":
-    a = Distance(4)
+    a = Distance(4,"cm")
     print(a) # Should print 4, the distance in meters
     b = eval(repr(a)) # what's happening here?
 
