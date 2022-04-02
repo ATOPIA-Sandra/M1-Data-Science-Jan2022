@@ -16,7 +16,7 @@ class Distance:
         self.unit = unit
 
     def __repr__(self):
-        "Should return a string representing what you should have written to build the object"
+        return (f"Distance({self.value},{self.unit}")
 
     def conv(self):
         c = self.__metric[self.unit]
@@ -42,13 +42,13 @@ class Distance:
     
     def __gt__(self,other):
         if isinstance(other,Distance):
-            return other.value > other
+            return (self.conv() > other.conv())
     
     def __ge__(self,other):
         if isinstance(other,Distance):
-            return other.value >= other
+            return (self.conv() >= other.conv())
     def __str__(self):
-        "Should return a string representing the distance in meters"
+        return (f"{self.conv()}, is the distance Value in Meter")
 
 
 if __name__ == "__main__":
