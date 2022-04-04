@@ -1,0 +1,11 @@
+[
+    {
+        "label": "Distance",
+        "kind": 6,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "class Distance:\n    __metric = {\n        \"mm\": 0.001,\n        \"cm\": 0.01,\n        \"m\": 1,\n        \"km\": 1000,\n        \"in\": 0.0254,\n        \"ft\": 0.3048,\n        \"yd\": 0.9144,\n        \"mi\": 1609.344,",
+        "detail": "main",
+        "documentation": {}
+    }
+]
