@@ -17,7 +17,7 @@ class Distance:
     def conv(self):
         return self.value*Distance.__metric[self.unit]
         
-    d
+    def
 
 
 
