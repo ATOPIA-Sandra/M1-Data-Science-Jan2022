@@ -19,7 +19,6 @@ class Distance:
         "Should return a string representing what you should have written to build the object"
         
     def conv(self):
-        ret
         
         c = self.__metric[self.unit]
         return self.value * 
