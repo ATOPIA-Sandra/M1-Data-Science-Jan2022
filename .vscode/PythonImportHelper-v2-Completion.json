@@ -29,15 +29,6 @@
     {
         "label": "Distance",
         "kind": 6,
-        "importPath": ".history.Untitled_20220405060456",
-        "description": ".history.Untitled_20220405060456",
-        "peekOfCode": "class Distance:\n    __metric = {\n        \"mm\": 0.001,\n        \"cm\": 0.01,\n        \"m\": 1,\n        \"km\": 1000,\n        \"in\": 0.0254,\n        \"ft\": 0.3048,\n        \"yd\": 0.9144,\n        \"mi\": 1609.344,",
-        "detail": ".history.Untitled_20220405060456",
-        "documentation": {}
-    },
-    {
-        "label": "Distance",
-        "kind": 6,
         "importPath": ".history.Untitled_20220405060457",
         "description": ".history.Untitled_20220405060457",
         "peekOfCode": "class Distance:\n    __metric = {\n        \"mm\": 0.001,\n        \"cm\": 0.01,\n        \"m\": 1,\n        \"km\": 1000,\n        \"in\": 0.0254,\n        \"ft\": 0.3048,\n        \"yd\": 0.9144,\n        \"mi\": 1609.344,",
@@ -51,6 +42,15 @@
         "description": ".history.Untitled_20220405060504",
         "peekOfCode": "class Distance:\n    __metric = {\n        \"mm\": 0.001,\n        \"cm\": 0.01,\n        \"m\": 1,\n        \"km\": 1000,\n        \"in\": 0.0254,\n        \"ft\": 0.3048,\n        \"yd\": 0.9144,\n        \"mi\": 1609.344,",
         "detail": ".history.Untitled_20220405060504",
+        "documentation": {}
+    },
+    {
+        "label": "Distance",
+        "kind": 6,
+        "importPath": ".history.Untitled_20220405060506",
+        "description": ".history.Untitled_20220405060506",
+        "peekOfCode": "class Distance:\n    __metric = {\n        \"mm\": 0.001,\n        \"cm\": 0.01,\n        \"m\": 1,\n        \"km\": 1000,\n        \"in\": 0.0254,\n        \"ft\": 0.3048,\n        \"yd\": 0.9144,\n        \"mi\": 1609.344,",
+        "detail": ".history.Untitled_20220405060506",
         "documentation": {}
     },
     {
