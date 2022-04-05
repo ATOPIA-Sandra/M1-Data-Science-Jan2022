@@ -25,7 +25,7 @@ class Distance:
             return None
         
 d1= Distance(4) 
-
+d2= 
 
 
 
