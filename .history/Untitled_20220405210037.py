@@ -18,7 +18,7 @@ class Distance:
         return self.value*Distance.__metric[self.unit]
         
     def__add__(self, other):
-        new_value_in_met= self.value + other.value
+        new_value_in_meter= self.value + other.value
         return Distance(new_value)
 
 
