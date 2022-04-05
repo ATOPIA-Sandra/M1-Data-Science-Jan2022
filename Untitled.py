@@ -23,7 +23,7 @@ class Distance:
             return Distance(new_value_in_meter)
         else:
             return None
-d1= Dis 
+d1= Dista 
 
 
 
