@@ -24,7 +24,7 @@ class Distance:
         else:
             return None
         
-d1= Distace 
+d1= Distance
 
 
 
