@@ -28,7 +28,7 @@ d1 = Distace(4)
 d2 = Distance(5 "km")
 
 
-d&
+
 
 
 
