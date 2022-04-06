@@ -24,8 +24,8 @@ class Distance:
         else:
             return None
         
-print(d = Distance(4))
-print (d = Distance(5,"km"))
+print(d1 = Distance(4))
+print (d2 = Distance(5,"km"))
 
 print(d1.unit)
 
