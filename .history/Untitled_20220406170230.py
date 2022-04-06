@@ -32,7 +32,6 @@ print (d3)
 
 
 
-
 object.__add__(self, other)
 object.__sub__(self, other)¶
 object.__mul__(self, other)
