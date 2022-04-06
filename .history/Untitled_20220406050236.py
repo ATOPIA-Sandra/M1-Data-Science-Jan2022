@@ -28,7 +28,7 @@ d1 = Distance(4)
 d2 = Distance(5,"km")
 print(d1.unit)
 
-d3 = d1 + 
+d3 = d1 + D
 
 
 
