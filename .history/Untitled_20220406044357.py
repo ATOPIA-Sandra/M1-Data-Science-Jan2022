@@ -24,7 +24,7 @@ class Distance:
         else:
             return None
         
-prind = Distance(4))
+print(d = Distance(4))
 print (e = Distance(5,"km"))
 
 print(f.unit)
