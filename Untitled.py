@@ -30,7 +30,7 @@ d2= Distance(5,"km")
 print(d1)
 print(d2)
 
-pr(d1.unit)
+prin(d1.unit)
 
 
 
