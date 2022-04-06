@@ -24,7 +24,7 @@ class Distance:
         else:
             return None
         
-pd1 = Distance(4)
+prid1 = Distance(4)
 d2 = Distance(5,"km")
 
 
