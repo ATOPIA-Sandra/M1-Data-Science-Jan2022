@@ -31,7 +31,7 @@ d3 = d1 + d2
 print (d3)
 
 
-object.__add__(self, other
+object.__add__(self, othe
 object.__sub__(self, other)¶
 object.__mul__(self, other)
 object.__matmul__(self, other)
