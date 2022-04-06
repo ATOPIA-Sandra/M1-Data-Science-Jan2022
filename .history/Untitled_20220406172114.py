@@ -28,7 +28,8 @@ d1 = Distance(4)
 d2 = Distance(5,"km")
 print(d1.unit)
 d3 = d1 + d2
-print (
+print (d3)
+
 object.__sub__(self, other)¶
 object.__mul__(self, other)
 object.__matmul__(self, other)
