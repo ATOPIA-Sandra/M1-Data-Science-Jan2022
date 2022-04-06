@@ -27,7 +27,7 @@ class Distance:
 print(d1 = Distance(4))
 print (d2 = Distance(5,"km"))
 
-prind1.unit
+print d1.unit
 
 
 
