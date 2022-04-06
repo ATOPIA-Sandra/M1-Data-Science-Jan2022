@@ -27,8 +27,6 @@ class Distance:
 d1 = Distance(4)
 d2= Distance(5,"km")
 
-pri
-
 print(d1.unit)
 
 
