@@ -31,7 +31,7 @@ d3 = d1 + d2
 
 
 
-  def__sub__(self, other)¶
+    def__sub__(self, other)¶
 object.__mul__(self, other)
 object.__matmul__(self, other)
 
