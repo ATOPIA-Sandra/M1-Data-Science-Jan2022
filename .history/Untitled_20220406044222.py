@@ -25,7 +25,7 @@ class Distance:
             return None
         
 print(d1 = Distance(4))
-prd2 = Distance(5,"km")
+prind2 = Distance(5,"km")
 
 
 
