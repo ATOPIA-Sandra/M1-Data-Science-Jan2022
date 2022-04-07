@@ -45,7 +45,4 @@ if __name__ == "__main__":
 
     print(d > e)
     print(d < e)
-    print(d == e
-          )
-
-
+    print(d == e)
